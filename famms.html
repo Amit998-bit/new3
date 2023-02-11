@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famms</title>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        Define the classes for styling navbar and its elements .navbar {
+            position: relative;
+            background: rgb(255, 255, 255);
+        }
+
+        #navlist {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+            background: rgb(253, 253, 253);
+        }
+
+        #navlist li {
+            flex: auto;
+            text-align: center;
+            padding: 1.6em;
+            font-size: 18px;
+            color: rgb(3, 3, 3);
+        }
+
+        /* #navlist li:hover {
+     background: red;
+} */
+        .b1 {
+            border: none;
+            background-color: white;
+        }
+
+        #sale {
+            font-size: 40px;
+            color: orangered;
+            margin-left: 20px;
+            font-weight: 700;
+        }
+
+        #on {
+            font-size: 40px;
+            color: rgb(23, 8, 65);
+            margin-left: 20px;
+            font-weight: 700;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        hr{
+            width: 100px;
+            height:3px;
+            background-color: orangered;
+            margin-top: -50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar">
+            <ul id="navlist">
+                <li style="width: 500px;">
+                    <img src="specs.png" style="height: 70px; width: 100px; float: left; margin-top: -15px; ">
+                    <p style="float: left; font-size: 40px; font-weight: 600; margin-top: -10px;" > Famms</p>
+                </li>
+
+                <li><button type="button" class="b1"> Home</button></li>
+                <li><button type="button" class="b1"> Pages</button></li>
+                <li><button type="button" class="b1"> Products</button></li>
+                <li><button type="button" class="b1"> Blogs</button></li>
+                <li><button type="button" class="b1"> Contact</button></li>
+                <li><img src="sc.png" style=height:30px;width:30px>
+               </li>
+            </ul>
+        </nav>
+
+
+    </div>
+    <div style="background-color: lightgrey; margin-top: -40px;">
+
+        <div class="row">
+            <div class="column">
+                <p id="sale">
+                    Sale 20% Off
+
+                </p>
+                <p id="on">
+                    On Everything
+                </p>
+                <P style="margin-left: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tenetur
+                    vero culpa distinctio esse
+                    quia nihil molestiae quasi repellendus voluptas non, ducimus eius dolorum reiciendis minus debitis
+                    repudiandae recusandae aliquam.</P><br>
+                <button type="button"
+                    style="border: none; background-color: orangered; height: 40px; width: 120px; margin-left: 20px; color: white;">Shop
+                    Now</button>
+            </div>
+
+            <div class="column">
+                <img src="aim1.png" height="400px" width="600px">
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <div>
+        <p style="font-size: 60px; text-align: center; font-weight: 600;">Why Shop With Us</p>
+        <hr >
+    </div><br>
+    <div class="row">
+        <div class="column" style="background-color: darkblue; height: 150px; width: 350px; margin-left: 50px; align-content: center;" > 
+           <center> <img src="truck2.png" style="height: 50px; width: 100px; align: center;">
+            <p style="color: white;"> <h3>Fast Delivery</h3>
+    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, minus?</h4></p></center>
+            
+        </div>
+        <div class="column" style="background-color: darkblue; height: 150px; width: 350px; margin-left: 150px;" > 
+            <center>  <img src="free.png" style="height: 50px; width: 100px; align-items: center;" >
+              <p style="color: white;">  <h3>Free shipping</h3>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, minus?</h4></center></p>
+        </div>
+        <div class="column" style="background-color: darkblue; height: 150px; width: 350px; float: right; margin-right: 50px;" >
+            <center> <img src="quality.png" style="height: 50px; width: 100px; align-items: center;"> 
+                <p style="color: white;"> <h3>Best quality</h3>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, minus?</h4></p></center>
+        </div>
+    </div>
+</body>
+
+</html> 
